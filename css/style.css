@@ -23,6 +23,11 @@ header #logo{
     font-size: 5em;
 }
 
+header #logo2{
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
 nav{
     background-color: #EBEBEB;
 }
