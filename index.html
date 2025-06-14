@@ -7,7 +7,22 @@
   <title>nMarulo | Backend, java, sql</title>
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: 'Nunito-ExtraBold';
+      src: url('font/Nunito-ExtraBold.woff2') format('woff2');
+      font-weight: 900;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Nunito-SemiBold';
+      src: url('font/Nunito-SemiBold.woff2') format('woff2');
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+  </style>
 
   <!-- Styles -->
   <style>
@@ -16,7 +31,7 @@
 
   <style>
     body {
-      font-family: 'Nunito';
+      font-family: 'Nunito-ExtraBold';
     }
   </style>
 </head>
@@ -27,7 +42,7 @@
       <h1 class="dark:text-white" style="margin-bottom: 0">nMarulo</h1>
     </div>
     <div class="flex justify-center sm:justify-start">
-      <p class="dark:text-white text-sm" style="margin-top: 0">El minimalismo es oro</p>
+      <p class="dark:text-white text-sm" style="margin-top: 0; font-family: Nunito-SemiBold">El minimalismo es oro</p>
     </div>
     <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
       <!-- Add a placeholder for the Twitch embed -->
